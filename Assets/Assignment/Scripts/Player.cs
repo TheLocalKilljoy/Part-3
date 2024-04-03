@@ -28,9 +28,4 @@ public class Player : MonoBehaviour
         move.x = Input.GetAxisRaw("Horizontal");
         move.y = Input.GetAxisRaw("Vertical");
     }
-
-    public void slow()
-    {
-        speed = 1f;
-    }
 }

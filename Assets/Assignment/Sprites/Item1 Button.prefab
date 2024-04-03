@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4896727623573731939}
   - component: {fileID: 2748486256521772586}
   - component: {fileID: 5244822427131254317}
-  - component: {fileID: 4715250968313150233}
+  - component: {fileID: -6471281346294903629}
   m_Layer: 5
   m_Name: Item1 Button
   m_TagString: Untagged
@@ -121,8 +121,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4715250968313150233}
-        m_TargetAssemblyTypeName: UseItem, Assembly-CSharp
+      - m_Target: {fileID: -6471281346294903629}
+        m_TargetAssemblyTypeName: Item1, Assembly-CSharp
         m_MethodName: click
         m_Mode: 1
         m_Arguments:
@@ -133,7 +133,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4715250968313150233
+--- !u!114 &-6471281346294903629
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,6 +142,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3825350006468138663}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20df768a84491dc448ee534bfd60c0a7, type: 3}
+  m_Script: {fileID: 11500000, guid: c3ed9581a5378f1498de1bf1afb1dfa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: -2153720695089187647, guid: 2595d5f138904944cbdce3b5c914e4d0, type: 3}

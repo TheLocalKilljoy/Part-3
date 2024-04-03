@@ -845,6 +845,10 @@ PrefabInstance:
       propertyPath: slots.Array.data[3]
       value: 
       objectReference: {fileID: 669322059}
+    - target: {fileID: -2153720695089187647, guid: 2595d5f138904944cbdce3b5c914e4d0, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2424353968091148161, guid: 2595d5f138904944cbdce3b5c914e4d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

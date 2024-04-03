@@ -68,7 +68,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  index: 0
 --- !u!212 &1586020515214846734
 SpriteRenderer:
   m_ObjectHideFlags: 0

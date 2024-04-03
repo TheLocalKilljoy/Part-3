@@ -25,7 +25,7 @@ public class UseItem : MonoBehaviour
         }
     }
 
-    public void click()
+    public virtual void click()
     {
         Destroy(gameObject);
     }

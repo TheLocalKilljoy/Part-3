@@ -10,13 +10,19 @@ public class Item1 : UseItem
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public override void click()
+    {
+        base.click();
+        player.speed = 1f;
     }
 
 }
