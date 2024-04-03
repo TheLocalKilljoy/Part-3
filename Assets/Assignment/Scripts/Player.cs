@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     
     public Rigidbody2D rb;
+    BoxCollider2D bc;
 
     public float speed = 5f;
 
@@ -15,6 +16,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();  
+        bc = GetComponent<BoxCollider2D>();
     }
 
     private void FixedUpdate()
