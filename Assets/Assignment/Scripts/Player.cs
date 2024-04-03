@@ -12,7 +12,6 @@ public class Player : MonoBehaviour
 
     Vector2 move;
 
-    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();  
@@ -24,7 +23,6 @@ public class Player : MonoBehaviour
         rb.MovePosition(rb.position + move * speed * Time.deltaTime);
     }
 
-    // Update is called once per frame
     void Update()
     {
         move.x = Input.GetAxisRaw("Horizontal");

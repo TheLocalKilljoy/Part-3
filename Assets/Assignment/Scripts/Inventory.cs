@@ -4,17 +4,14 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-
+    public int[] items;
     public GameObject[] slots;
-    public bool[] full;
 
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
